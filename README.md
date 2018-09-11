@@ -24,3 +24,5 @@ npm start
 ```  
 Go to [http://localhost:8080](http://localhost:8080), authenticate and start zooming. Ignore the map error and look at 
 the console logs. You'll see larger counts when zooming using the Public API.
+
+Make sure third-party cookies are not blocked in your browser. If they are, the authentication silently fails.

@@ -69,6 +69,6 @@ $(document).ready(() => {
         })
     }
 
-    ee.data.authenticate(CLIENT_ID, runAnalysis, null, null, onImmediateFailed)
+    ee.data.authenticate(CLIENT_ID, runAnalysis, onImmediateFailed, null, onImmediateFailed)
 })
 
